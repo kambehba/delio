@@ -5,17 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <script src="main.js"></script>
     <title>Document</title>
   </head>
-  <body>
-    <div>
-      <div class="s1">
-        <h1 class="s2">Welcoddme to Delio</h1>
+
+  <body class="s0">
+    <div class="s1">
+      <div class="s2">Delio</div>
+
+      <div class="s3">
+        <div class="s4">
+          <h2 class="s7">Rental Property Analyzer</h2>
+          <label class="s8" for="lp">Listsed Price:</label>
+          <div class="s12">
+            <label class="s11">$</label>
+            <input class="s10" type="number" id="lp" />
+          </div>
+
+          <label class="s8" for="lp">Possible Rent/mo:</label>
+          <div class="s12">
+            <label class="s11">$</label>
+            <input class="s10" type="number" id="mr" />
+          </div>
+
+          <label class="s8" for="lp">Value After Repair:</label>
+          <div class="s12">
+            <label class="s11">$</label>
+            <input class="s10" type="number" id="av" />
+          </div>
+          <div class="s16">
+            <button class="s14 btn btn-success" onclick="handleCalculate()">
+              Calculate
+            </button>
+          </div>
+        </div>
+
+        <div class="s5">
+          <lable class="s15" id="r1"><h2>RESULT ...</h2></lable>
+          <label class="s15" id="r2"><h2></h2></label>
+          <label class="s15" id="r3"><h2></h2></label>
+        </div>
       </div>
-      <div class="s3">sdfsssssssssssssssssssssd</div>
-      <div>sdfsssssd</div>
-      <div>sdfssssd</div>
-      <div>sdfssssd</div>
+      <div class="s6">Rustin Parsen Production - @copy right 2021</div>
     </div>
   </body>
 </html>
